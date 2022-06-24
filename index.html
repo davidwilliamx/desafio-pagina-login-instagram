@@ -9,42 +9,31 @@
 </head>
 <body>
     <div class="container">
-        <section class="container__smartphone">
-            <img src="./images/instagram-celular.png" alt="Instagram" class="smartphone">
-        </section>
-        <section class="container__login">
-            <div class="login">
-                <header class="login__logo">
-                    <img src="./images/Instagram_logo.svg" alt="Instagram Logo">
-                </header>
-                <form class="login__form">
-                    <input type="text" name="userName" id="form__user" placeholder="Telefone, nome de usuário ou email">
-                    <input type="password" name="userPassword" id="form__password" placeholder="Senha">
-                    <button class="form__btn">Entrar</button>
-                    <span>ou</span>
-                    <a href="#" class="form__facebook" target="_blank">Entrar com o Facebook</a>
-                    <a href="#" class="form__recovery" target="_blank">Esqueceu a senha?</a>
-                </form>
+        <div class="instagram-phone">
+            <img src="./images/instagram-celular.png" alt="celular">
+        </div>
+        <div class="instagram-login">
+            <div class="group">
+                <img src="./images/Instagram_logo.svg" class="instagram-logo" alt="instagram logo">
+                <div class="form-login">
+                    <input type="text" class="form-user" placeholder="Telefone, nome de usuário ou email">
+                    <input type="password" class="form-password" placeholder="Senha">
+                    <button class="form-btn">Entrar</button>
+                </div>
+                <span>ou</span>
+                <a href="#" class="facebook-login" target="_blank">Entrar com o Facebook</a>
+                <a href="#" class="facebook-recovery" target="_blank">Esqueceu a senha?</a>
             </div>
-            <div class="signup">
-                <span class="signup__link">
-                    <p class="link__text">Não tem uma conta? <a href="http://#" class="link" target="_blank">Cadastre-se</a></p>
-                </span>
+            <div class="group">
+                <p class="link-text">Não tem uma conta? <a href="http://#" class="link" target="_blank">Cadastre-se</a></p>
             </div>
-            <div class="app">
-                <p class="app__text">Obtenha o aplicativo.</p>
-                <span class="app__apple">
-                    <a href="#" class="app__link" target="_blank">
-                        <img src="./images/Download_on_the_App_Store_Badge_PTBR_RGB_blk_092917.svg" alt="Baixe o aplicativo para dispositivos Apple">
-                    </a>
-                </span>
-                <span class="app__android" target="_blank">
-                    <a href="#" class="app__link">
-                        <img src="./images/google-play-badge.png" alt="Baixe o aplicativo para dispositovs Android">
-                    </a>
-                </span>
+            <div class="get-the-app">
+                <p class="get-app">Baixe o aplicativo</p>
+                <div class="download">
+                    <a href="#" class="app-download"></a>
+                    <a href="#" class="app-download"></a>
+                </div>
             </div>
-        </section>
+        </div>
     </div>
-</body>
 </html>
